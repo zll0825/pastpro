@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+	*{
+		margin-left: 0;
+		margin-top: 0;
+	}
+	table {
+		border-collapse: collapse;
+	}
+	tr {
+		border:1px solid black;
+	}
+	td {
+		border:1px solid gray;
+		width: 46px;
+		height: 46px;
+		background-repeat: no-repeat;
+	}
+</style>
+<script src="../jquery-2.1.1.js"></script>
+<script>
+	function restart(){
+		$.post('./wuziqi.php',{act:"restart"},function(){alert('可以开始了！')});
+	}
+	function Data(){
+		this.qizi = [];
+
+		this.getqizi = function(){
+			var a = [];
+			$.ajax({
+				url:"./wuziqi.php",
+				async:false,
+				type:"get",
+				dataType:"json",
+				success:function(msg){
+					a = msg.qizi;
+				}
+			});
+			this.qizi = a;
+		}
+
+		this.show = function(){
+			this.getqizi();
+			var qizi = this.qizi;
+			if(qizi.length == 0){
+				$.each($('td'),function(i,v){
+					v.style.backgroundImage = "";
+				})
+			}
+			for(i=0;i<qizi.length;i++){
+				var color = qizi[i][0];
+				var cx = qizi[i][1];
+				var cy = qizi[i][2];
+				var down = document.getElementsByTagName('tr')[cy];
+				var down = down.cells[cx];
+				down.style.backgroundImage = "url('"+color+".png')";
+			}
+			// console.log(qizi.length);
+		}
+		this.putqizi = function(){
+			var data = {qizi:this.qizi}
+			$.post('./wuziqi.php',data);
+		}
+	}
+	
+	function Person(color){
+		var bx = document.getElementsByTagName('td')[0].clientWidth;
+		this.color = color;
+
+		this.down = $('table').click(function(evt){
+			var dx = Math.ceil(evt.pageX/bx)-1;
+			var dy = Math.ceil(evt.pageY/bx)-1;
+			data.getqizi();
+			var box = data.qizi;
+			// console.log(box);
+			for(i=0;i<box.length;i++){
+				// console.log(dx+"----"+dy+"++++"+box[i][1]+"----"+box[i][2]);
+				if(dx==box[i][1] && dy==box[i][2]){
+					alert('你瞎啊！');
+					return;
+				}
+			}
+			var newqizi = [color,dx,dy];
+			data.qizi.push(newqizi);
+			data.putqizi();
+			data.show();
+			// console.log(data.qizi);
+		})
+	}
+
+$(function(){
+	data = new Data();
+	data.getqizi();
+	// alert(data.qizi);
+	data.show();
+
+	// $('button:eq(0)').click(function(){
+	// 	new Person('white');
+	// 	$('button:eq(1)').attr('disabled','disabled');
+	// });
+	// $('button:eq(1)').click(function(){
+	// 	new Person('black');
+	// 	$('button:eq(0)').attr('disabled','disabled');
+	// });
+
+	$.each($('button'),function(i,v){
+		// console.log($(v));
+		$(v).click(function(){
+			// alert(v.id);
+			new Person(v.id);
+			$.each($('button'),function(j,k){
+				if(j != i){
+					k.style.display = "none";
+					$(k).attr('disabled','disabled');
+				}
+			})
+		});
+	});
+
+	setInterval("data.show()", 100);
+});
+</script>
+<body>
+	<table>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		</tr>
+	</table>
+	<div style="position:absolute; right:370px; top:20px; width:110px; height:50px;font-size:26px; background-color:rgb(227,227,227);border:0px; line-height:50px;" id="white"><a href="wiziqi.html" onclick="restart()">重新开局</a></div>
+	<button style="position:absolute; right:400px; top:100px; width:50px; height:50px;font-size:20px; border:0px;" id="white">白</button>
+	<button style="position:absolute; right:400px; top:180px; width:50px; height:50px;font-size:20px; background-color:black; color:white; border:0px;" id="black">黑</button>
+	<button style="position:absolute; right:400px; top:260px; width:50px; height:50px;font-size:20px; background-color:blue; color:white; border:0px;" id="blue">蓝</button>
+	<button style="position:absolute; right:400px; top:340px; width:50px; height:50px;font-size:20px; background-color:green; color:white; border:0px;" id="green">绿</button>
+	<button style="position:absolute; right:400px; top:420px; width:50px; height:50px;font-size:20px; background-color:red; color:white; border:0px;" id="red">红</button>
+</body>
+</html>
+        

@@ -1,0 +1,223 @@
+[ 2016-04-09T16:04:02+08:00 ] ::1 /3.29/index.php/Admin/goods/goodslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0470s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_sn`,`shop_price`,`is_best`,`is_new`,`is_hot`,`goods_number` FROM `goods` WHERE ( is_del=0 ) ORDER BY goods_id desc LIMIT 0,2   [ RunTime:0.0580s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\68fbfd9a1f0104f3bba9a5e91757eaec.php 第 80 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\68fbfd9a1f0104f3bba9a5e91757eaec.php 第 82 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\68fbfd9a1f0104f3bba9a5e91757eaec.php 第 80 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\68fbfd9a1f0104f3bba9a5e91757eaec.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-09T16:04:09+08:00 ] ::1 /3.29/index.php/Admin/goods/goodsedit/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-09T16:04:19+08:00 ] ::1 /3.29/index.php/Admin/goods/goodsedit/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: goods_id D:\xampp\htdocs\3.29\Admin\Controller\GoodsController.class.php 第 79 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `goods` SET `MAX_FILE_SIZE`='2097152',`goods_name`='112414613',`goods_sn`='1111111',`cat_id`='1',`shop_price`='0',`goods_desc`='',`goods_weight`='',`weight_unit`='1',`goods_number`='1',`is_on_sale`='1',`keywords`='',`goods_brief`='',`seller_note`='',`goods_id`='{goods.goods_id}',`act`='insert' WHERE ( goods_id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `goods` SET `MAX_FILE_SIZE`='2097152',`goods_name`='112414613',`goods_sn`='1111111',`cat_id`='1',`shop_price`='0',`goods_desc`='',`goods_weight`='',`weight_unit`='1',`goods_number`='1',`is_on_sale`='1',`keywords`='',`goods_brief`='',`seller_note`='',`goods_id`='{goods.goods_id}',`act`='insert' WHERE ( goods_id= )
+
+[ 2016-04-09T16:04:32+08:00 ] ::1 /3.29/index.php/Admin/goods/goodslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_sn`,`shop_price`,`is_best`,`is_new`,`is_hot`,`goods_number` FROM `goods` WHERE ( is_del=0 ) ORDER BY goods_id desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\68fbfd9a1f0104f3bba9a5e91757eaec.php 第 80 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\68fbfd9a1f0104f3bba9a5e91757eaec.php 第 82 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\68fbfd9a1f0104f3bba9a5e91757eaec.php 第 80 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\68fbfd9a1f0104f3bba9a5e91757eaec.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-09T16:04:35+08:00 ] ::1 /3.29/index.php/Admin/Goods/goodslist/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_sn`,`shop_price`,`is_best`,`is_new`,`is_hot`,`goods_number` FROM `goods` WHERE ( is_del=0 ) ORDER BY goods_id desc LIMIT 2,2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\68fbfd9a1f0104f3bba9a5e91757eaec.php 第 80 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\68fbfd9a1f0104f3bba9a5e91757eaec.php 第 82 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\68fbfd9a1f0104f3bba9a5e91757eaec.php 第 80 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\68fbfd9a1f0104f3bba9a5e91757eaec.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-09T16:04:40+08:00 ] ::1 /3.29/index.php/Admin/goods/goodsedit/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 9 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\xampp\htdocs\3.29\Runtime\Cache\Admin\78e0ff3b14418a2149b10395c774bb72.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-09T16:04:52+08:00 ] ::1 /3.29/index.php/Admin/goods/goodsedit/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: goods_id D:\xampp\htdocs\3.29\Admin\Controller\GoodsController.class.php 第 79 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `goods` SET `MAX_FILE_SIZE`='2097152',`goods_name`='5555555555',`goods_sn`='',`cat_id`='12',`shop_price`='0',`goods_desc`='',`goods_weight`='',`weight_unit`='1',`goods_number`='1',`is_on_sale`='1',`keywords`='',`goods_brief`='',`seller_note`='',`goods_id`='{goods.goods_id}',`act`='insert' WHERE ( goods_id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `goods` SET `MAX_FILE_SIZE`='2097152',`goods_name`='5555555555',`goods_sn`='',`cat_id`='12',`shop_price`='0',`goods_desc`='',`goods_weight`='',`weight_unit`='1',`goods_number`='1',`is_on_sale`='1',`keywords`='',`goods_brief`='',`seller_note`='',`goods_id`='{goods.goods_id}',`act`='insert' WHERE ( goods_id= )
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    img{
+    transform: scale(1,1);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+}
+    img:hover{
+    overflow: hidden;
+    transform: scale(1.5);  /*放大1.25倍*/
+    transition-duration: 800ms;
+    transition-timing-function: ease-out;
+}
+   .maxa{
+    border: 1px solid #ccc;
+    height: 384px;
+    width: 300px;
+    overflow: hidden;       /*包围盒子溢出就裁剪掉*/
+   }
+   .max{
+      width: 300px;
+      display: block;
+      height: 300px;
+   }
+
+</style>
+<body>
+  <div class="maxa">
+    <img style="width:300px;" src="/uploads/images/lajin.jpeg" alt="">
+  </div>
+</body>
+</html>

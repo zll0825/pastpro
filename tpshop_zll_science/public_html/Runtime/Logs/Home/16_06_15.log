@@ -1,0 +1,174 @@
+[ 2016-06-15T22:03:05+08:00 ] 43.225.238.180 /index.php?home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002394s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.3768s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0867s ]
+SQL: SELECT * FROM `goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000475s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.416690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.416825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002260s ]
+
+[ 2016-06-15T22:03:15+08:00 ] 43.225.238.180 /index.php?home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2016-06-15T22:03:22+08:00 ] 43.225.238.180 /index.php/Home/goods/category/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `goods` WHERE ( cat_id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE ( cat_id=2 ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0004s ]
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /www/web/tpshop_zll_science/public_html/Home/Controller/GoodsController.class.php 第 27 行.
+ERR: 模板不存在:./Home/View/index/category.html
+
+[ 2016-06-15T22:03:28+08:00 ] 43.225.238.180 /index.php/Home/goods/category/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `goods` WHERE ( cat_id=7 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` WHERE ( cat_id=7 ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0002s ]
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /www/web/tpshop_zll_science/public_html/Home/Controller/GoodsController.class.php 第 27 行.
+ERR: 模板不存在:./Home/View/index/category.html
+
+[ 2016-06-15T22:03:48+08:00 ] 43.225.238.180 /index.php/Home/goods/category/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `goods` WHERE ( cat_id=9 )  [ RunTime:0.0431s ]
+SQL: SELECT * FROM `goods` WHERE ( cat_id=9 ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0011s ]
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /www/web/tpshop_zll_science/public_html/Home/Controller/GoodsController.class.php 第 27 行.
+ERR: 模板不存在:./Home/View/index/category.html
+
+[ 2016-06-15T22:03:59+08:00 ] 43.225.238.180 /index.php?admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2016-06-15T22:04:07+08:00 ] 43.225.238.180 /index.php?admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001165s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2016-06-15T22:04:14+08:00 ] 43.225.238.180 /index.php?admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+

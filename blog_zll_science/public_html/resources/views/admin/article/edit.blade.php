@@ -1,0 +1,146 @@
+@extends('layouts/admin')
+@section('content')
+    <!--面包屑导航 开始-->
+    <div class="crumb_warp">
+        <!--<i class="fa fa-bell"></i> 欢迎使用登陆网站后台，建站的首选工具。-->
+        <i class="fa fa-home"></i> <a href="{{url('admin/info')}}">首页</a> &raquo; 文章修改
+    </div>
+    <!--面包屑导d 航 结束-->
+
+	<!--结果集标题与导航组件 开始-->
+	<div class="result_wrap"> 
+        <div class="result_title">
+            <h3>快捷操作</h3>
+            @if(count($errors)>0)
+                <div class="mark">
+                    @if(is_object($errors))
+                        @foreach($errors->all() as $error)
+                            <p>{{$error}}</p>
+                        @endforeach
+                    @else
+                        <p>{{$errors}}</p>
+                    @endif
+                </div>
+            @endif
+        </div>
+         <div class="result_content">
+            <div class="short_wrap">
+                    <a href="{{url('/admin/article')}}"><i class="fa fa-fw fa-list-ul"></i>全部文章</a>
+            </div>
+        </div>
+    </div>
+    <!--结果集标题与导航组件 结束-->
+    
+    <div class="result_wrap">
+        <form action="{{url('admin/article/'.$field->art_id)}}" method="post">
+            <input type="hidden" name="_method" value="put">
+            {{csrf_field()}}
+            <table class="add_tab">
+                <tbody>
+                    <tr>
+                        <th width="120">栏目：</th>
+                        <td>
+                            <select name="art_cateid">
+                                <option value="">==请选择==</option>
+                                @foreach($data as $d)
+                                <option value="{{$d->cate_id}}" @if($d->cate_id == $field->art_cateid) selected @endif><?php echo str_repeat('--', $d->lev)?>{{$d->cate_name}}</option>
+                                @endforeach
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><i class="require">*</i>标题：</th>
+                        <td>
+                            <input type="text" class="lg" name="art_title" value="{{$field->art_title}}">
+                            <p>标题可以写30个字</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>作者：</th>
+                        <td>
+                            <input type="text" name="art_editor" value="{{$field->art_editor}}">
+                            <span><i class="fa fa-exclamation-circle yellow"></i>这里是默认长度</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>标签：</th>
+                        <td>
+                            <input type="text" class="lg" name="art_tag" value="{{$field->art_tag}}">
+                            <p>如果有多个标签，请用空格隔开</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>描述：</th>
+                        <td>
+                            <textarea name="art_description">{{$field->art_description}}</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+<script src="{{asset('resources/org/uploadify/jquery.uploadify.min.js')}}" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="{{asset('resources/org/uploadify/uploadify.css')}}">
+<style>
+.uploadify{display:inline-block;}
+.uploadify-button{border:none; border-radius:5px; margin-top:8px;}
+table.add_tab tr td span.uploadify-button-text{color: #FFF; margin:0;}
+</style>
+                        <th>封面图：</th>
+                        <td>
+                            <input type="text" class="lg" id="filepath" name="art_thumb" value="{{$field->art_thumb}}">
+                            <input id="file_upload" name="file_upload" type="file" multiple="true">
+                        </td>
+<script type="text/javascript">
+    <?php $timestamp = time();?>
+    $(function() {
+        $('#file_upload').uploadify({
+            'buttonText' : '上传图片',
+            'formData'     : {
+                'timestamp' : '<?php echo $timestamp;?>',
+                '_token'     : "{{csrf_token()}}"
+            },
+            'swf'      : "{{asset('resources/org/uploadify/uploadify.swf')}}",
+            'uploader' : "{{url('/admin/upload')}}",
+            'onUploadSuccess' : function(file, data, response) {
+                $('#filepath').val(data);
+                $('#thumb').attr('src', data);
+            }
+        });
+    });
+</script>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td>
+                            <img src="{{$field->art_thumb}}" alt="" id="thumb" style="max-width:400px; max-height:200px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><i class="require">*</i>文章内容：</th>
+                        <td>
+
+<script type="text/javascript" charset="utf-8" src="{{asset('resources/org/ueditor/ueditor.config.js')}}"></script>
+<script type="text/javascript" charset="utf-8" src="{{asset('resources/org/ueditor/ueditor.all.min.js')}}"></script>
+<script type="text/javascript" charset="utf-8" src="{{asset('resources/org/ueditor/lang/zh-cn/zh-cn.js')}}"></script>
+<script name="art_content" id="editor" type="text/plain" style="width:900px;height:500px;">{!! $field->art_content !!}</script>
+<script>
+    var ue = UE.getEditor('editor');//实例编辑器
+</script>
+<style>
+    .edui-default{line-height: 28px;}
+    div.edui-combox-body,div.edui-button-body,div.edui-splitbutton-body
+    {overflow: hidden; height:20px;}
+    div.edui-box{overflow: hidden; height:22px;}
+</style>
+                        </td>
+                    </tr>
+                    
+                        <th></th>
+                        <td>
+                            <input type="submit" value="提交">
+                            <input type="button" class="back" onclick="history.go(-1)" value="返回">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+@endsection('content')

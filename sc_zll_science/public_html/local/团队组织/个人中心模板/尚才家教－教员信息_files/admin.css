@@ -1,0 +1,97 @@
+@charset "utf-8";
+/*全局样式*/
+/*side*/
+h3{ margin:0;}
+#managenav div{
+	background:url(../images/bg_accountnav.png) repeat-y center;
+	margin:9px 3px;
+	zoom:1;
+	font-size: 12px;
+}
+#managenav h3{
+	background:url(../images/bg_accountnav.png) no-repeat;
+}
+#managenav h3 span{
+	display:block;
+	height:43px;
+	line-height:40px;
+	background:url(../images/col_mng_account.png) no-repeat 30px 10px;
+	color: #FFFFFF;
+	text-indent: 30px;
+	font-size: 12px;
+}
+#managenav .comment h4 span
+{
+	display:block;
+	height:43px;
+	background:url(/images/Usercenter/bg_img/sppl.jpg) no-repeat;
+}
+#managenav .answer h4 span
+{
+	display:block;
+	height:43px;
+	background:url(/images/Usercenter/bg_img/spwd.jpg) no-repeat;
+}
+
+#grmes{
+	background:url(../images/bg_accountMesnav.png) repeat-y center;
+	margin:0px 3px 9px 3px;
+	zoom:1;
+	font-size: 12px;
+	color: #999999;
+}
+#grmes p{
+	background:url(../images/bg_accountMesnav.png) no-repeat left top;
+	overflow:hidden;
+	margin:0;
+	text-indent:-999px;
+}
+#grmes ul{
+	background:url(../images/bg_accountMesnav.png) no-repeat right bottom;
+	padding:0 9px 0px;
+	overflow:hidden;
+	padding-left:15px;
+}
+#grmes ul li{
+	line-height:160%;
+	padding-bottom:10px;
+}
+#managenav ul{
+	background:url(../images/bg_accountnav.png) no-repeat right bottom;
+	padding:0 9px 9px;
+	overflow:hidden;
+	list-style-type:none;
+	list-style:none;
+}
+#managenav li{
+	background:url(../images/ico_redsq.png) no-repeat 18px;
+	line-height:2;
+	padding-left:30px;
+	border-top:1px dashed #e1dfe0;
+	margin-top:-1px;
+	list-style-type:none;
+	list-style:none;
+}
+#managenav .current,#managenav a:hover{
+	font-weight:700;
+}
+
+.atitle {
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #666666;
+	text-indent: 10px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #f2f2f2;
+}
+.abox {
+	border: 2px solid #E7E7E7;
+	padding: 10px;
+	font-size:12px;
+	color:#454545;
+	margin-bottom:10px;
+	line-height:20px;
+}

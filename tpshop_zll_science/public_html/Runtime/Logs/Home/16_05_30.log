@@ -1,0 +1,93 @@
+[ 2016-05-30T07:40:31+08:00 ] 43.225.238.170 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014088s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.1770s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0884s ]
+SQL: SELECT * FROM `goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0003s ]
+ERR: 模板不存在:./Home/View/Index/index.html
+
+[ 2016-05-30T19:10:32+08:00 ] 43.225.238.180 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002857s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0003s ]
+ERR: 模板不存在:./Home/View/Index/index.html
+
+[ 2016-05-30T19:12:09+08:00 ] 43.225.238.180 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0004s ]
+ERR: 模板不存在:./Home/View/Index/index.html
+
+[ 2016-05-30T19:17:46+08:00 ] 43.225.238.180 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000448s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000712s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.233096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.233280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001527s ]
+
+[ 2016-05-30T19:18:32+08:00 ] 43.225.238.180 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000386s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000627s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 358 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001391s ]
+

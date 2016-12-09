@@ -1,0 +1,326 @@
+[ 2016-06-15T22:04:27+08:00 ] 43.225.238.180 /index.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.171153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.171312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2016-06-15T22:04:28+08:00 ] 43.225.238.180 /index.php/admin/index/drag.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001464s ]
+
+[ 2016-06-15T22:04:28+08:00 ] 43.225.238.180 /index.php/admin/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2016-06-15T22:04:28+08:00 ] 43.225.238.180 /index.php/admin/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2016-06-15T22:04:28+08:00 ] 43.225.238.180 /index.php/admin/index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2016-06-15T22:04:33+08:00 ] 43.225.238.180 /index.php/Admin/goods/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_sn`,`shop_price`,`is_best`,`is_new`,`is_hot`,`goods_number` FROM `goods` WHERE ( is_delete=0 ) ORDER BY goods_id desc LIMIT 0,2   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/68fbfd9a1f0104f3bba9a5e91757eaec.php 第 80 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/68fbfd9a1f0104f3bba9a5e91757eaec.php 第 82 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/68fbfd9a1f0104f3bba9a5e91757eaec.php 第 80 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/68fbfd9a1f0104f3bba9a5e91757eaec.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2016-06-15T22:04:36+08:00 ] 43.225.238.180 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001523s ]
+
+[ 2016-06-15T22:04:43+08:00 ] 43.225.238.180 /index.php/Admin/cat/catlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 47 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 48 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 47 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 48 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 47 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 48 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 47 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 48 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 47 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 48 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 47 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 48 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 47 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 48 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 47 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 48 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 47 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 48 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 47 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 48 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 47 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 48 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 47 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 48 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 47 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 48 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 47 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 48 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 47 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/27d4c96070c9c5b16dcf99f56341c448.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2016-06-15T22:04:47+08:00 ] 43.225.238.180 /index.php/Admin/cat/catedit/cat_id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cat` WHERE `cat_id` = 16 LIMIT 1   [ RunTime:0.0139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/bceadd60d888afd1381e738913f663fe.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001559s ]
+
+[ 2016-06-15T22:04:50+08:00 ] 43.225.238.180 /index.php/admin/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2016-06-15T22:04:53+08:00 ] 43.225.238.180 /index.php/Admin/goods/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_sn`,`shop_price`,`is_best`,`is_new`,`is_hot`,`goods_number` FROM `goods` WHERE ( is_delete=0 ) ORDER BY goods_id desc LIMIT 0,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000449s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/68fbfd9a1f0104f3bba9a5e91757eaec.php 第 80 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/68fbfd9a1f0104f3bba9a5e91757eaec.php 第 82 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/68fbfd9a1f0104f3bba9a5e91757eaec.php 第 80 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /www/web/tpshop_zll_science/public_html/Runtime/Cache/Admin/68fbfd9a1f0104f3bba9a5e91757eaec.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2016-06-15T22:04:59+08:00 ] 43.225.238.180 /index.php/admin/index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
